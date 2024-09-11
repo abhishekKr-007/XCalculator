@@ -1,0 +1,40 @@
+/* Calculator.css */
+.calculator-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .calculator-input {
+    width: 180px;
+    padding: 1px;
+    margin-bottom: 10px;
+    font-size:1rem;
+  }
+  
+  .result {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color:gray;
+  }
+  
+  .calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+   
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: black;
+  }
+  
+  button:active {
+    background-color: #e0e0e0;
+  }
+  
